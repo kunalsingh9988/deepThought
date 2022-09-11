@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar  */
+#nav-container{
+    position: relative;
+    height: 90px;
+    background-color: #F0F0F0;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+.brand-icon{
+    flex-grow: 10;
+    margin: 20px 0 20px 80px;
+    width: 100px;
+}
+.brand-svg{
+    height: 60px;
+}
+.sallu-img{
+    height:40px;
+    width: 40px;
+}
+.img-icon{
+    flex-grow: 1;
+}
+.dot-img{
+    height: 30px;
+    width: 30px;
+    padding: 0 0 5px 0px;
+    cursor: pointer;
+}
+.nav-icons{
+   
+    cursor: pointer;
+    float: right;
+    background-color: #3683F0;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    
+    top: 55px;
+}
+.home-icon{
+    
+    right: 300px;
+}
+.tool-icon{
+   
+    right: 250px;
+}
+.notification-icon{
+    float: right;
+    cursor: pointer;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    
+    top: 55px;
+    
+    right: 200px;
+    
+
+}
+.noti-dot{
+    float: right;
+  
+    height: 11px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    
+    top: 63px;
+    
+    right: 209px;
+   
+}
+.icon-img{
+    height: 17px;
+    width: 15px;
+    margin: 9px 6px 24px 7px;
+}
+.icon-img-noti{
+    width: 31px;
+    height: 42px;
+
+}
+
+
+/* Task section  */
+#demo-task-header{
+    margin-top: 100px;
+    display: flex;
+    /* flex-direction: column; */
+}
+/* sidebar  */
+.side-bar{
+    transition: 0.5s;
+    position: absolute;
+    border-radius: 0 10px 0 0 ;
+    box-shadow: 2px 2px 1px #F0F0F0;
+    height: 800px;
+    width: 400px;
+    background-color: #FFFFFF;
+    transform: translate(-70%);
+    
+}
+.sidebar-ext{
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(0);
+    
+}
+.sidebar-heading{
+    border-radius: 0 10px 0 0 ;
+    height: 80px;
+    background-color:  black;
+    display: flex;
+}
+.sidebar-heading{
+    color: white;
+padding: 20px 0 0 20px;
+}
+.sidebar-content h3{
+    margin: 20px 0 20px 30px;
+}
+.sidebar-content ul li{
+    margin: 0 0 20px 70px;
+}
+.menu-btn{
+    cursor:pointer;
+    outline: none;
+    background: none;
+    border: none;
+    height: 40px;
+    width: 60px;
+    color: white;
+    margin: 0px 0 0 100px;
+}
+.h3-hr{
+    width: 250px;
+    margin:0 0 20px 50px;
+}
+
+.ul-hr{
+    width: 100px;
+    margin: 0 0 10px 70px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: rgb(224, 224, 224);
+}
+.menu-icon{
+   
+    height: 40px;
+    width: 60px;
+    
+}
+#demo-task-container{
+    /* position: absolute; */
+    box-shadow: 1px 10px 8px 2px #F0F0F0;
+   /* display: flex; */
+    border-radius: 10px 10px 0 0;
+    margin: 0 0px 50px 150px;
+    width: 80%;
+    height: 1900px;
+    background-color: #FFFFFF;
+}
+.task-heading{
+    border-radius: 10px 10px 0 0;
+    padding: 15px 0 15px 20px;
+    background-color: #0029FF;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demo-task-container h3{
+    text-align: center;
+    width: 100px;
+     margin: 44px 450px 44px 450px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+                  /* task card  */
+.task-card-container{
+display: flex;
+flex-wrap: wrap;
+margin: 30px 70px 0 70px;
+}
+.task-card-heading{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(34, 31, 31);
+    height: 50px;
+}
+.task-card-heading p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+.task-card{
+    margin: 10px 20px 27px 20px;
+    box-shadow: 1px 10px 8px 2px #F0F0F0;
+    border-radius: 10px;
+    transition: 0.5s;
+    height: 320px;
+    width: 380px;
+    display: flex;
+}    
+.show-task{
+    margin: 10px 20px 27px 20px;
+    box-shadow: 1px 10px 8px 2px #F0F0F0;
+    border-radius: 10px;
+    transition: .5s;
+    
+    height: 520px;
+    width: 380px;
+
+
+}         
+.scroll-btn{
+    align-self: flex-end;
+    position: absolute;
+    cursor:pointer;
+    height: 20px;
+    width: 20px;
+    margin-left: 345px;
+    margin-bottom: 5px;
+    outline: none;
+    background: none;
+    border: none;
+   
+}     
+
+
+
+
+
+
+/* next-button  */
+.next-btn{
+    border-radius: 5px;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: 80px;
+    height: 65px;
+    outline: none;
+    border: none;
+    background-color: #0029FF;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
